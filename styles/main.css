@@ -33,20 +33,25 @@ nav {
 }
 
 nav a{
+    border-width: 1px;
     text-decoration: none;
+    border-style: solid;
     
+
+    border-color: transparent;
+    
+    
+
     font-size: 14px;
     line-height: 14px;
 }
 
 nav a:hover {
-    text-decoration: underline;
-    text-decoration-color: red;
+    border-bottom-color: red;
 }
 
 nav a:first-child {
-    text-decoration: underline;
-    text-decoration-color: red;
+    border-bottom-color: red;
 }
 
 a+a {
@@ -60,6 +65,7 @@ div>a {
     background-color: #FF4622;
     border-radius: 6px;
     font-size: 13px;
+    
     
 }
 
@@ -89,7 +95,14 @@ section div{
 }
 
 h1 {
-    width: 70%;
+    font-size: 31px;
+    margin: 0;
+}
+
+div>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
 }
 
 div>img{
