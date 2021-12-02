@@ -5,7 +5,21 @@ html {
 
 header {
     width: 800px;
-    margin-left: calc(50%-400px);
+    margin-left: calc(50% - 400px);
+    display: inline-block;
+}
+
+nav {
+    float:right;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+a+a {
+    margin-left: 30px;
 }
 
 
