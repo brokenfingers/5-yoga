@@ -3,7 +3,13 @@ html {
     margin: 0;
 }
 
+body {
+    font-family: 'Comic Sans MS', 'HP Simplified Jpan' ;
+    color: #2A214B;
+}
+
 header {
+    color: #2A214B;
     width: 800px;
     margin-left: calc(50% - 400px);
     display: inline-block;
@@ -11,11 +17,19 @@ header {
 
 nav {
     float:right;
+    margin-top: 13px;
 }
 
 nav a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+nav a:first-child {
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 a+a {
