@@ -111,3 +111,10 @@ div>img{
     margin-left: 150px;
     margin-bottom: 50px;
 }
+
+footer>img {
+    position: fixed;
+    bottom: 0;
+    width: 20%;
+    z-index: -1;
+}
