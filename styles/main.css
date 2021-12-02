@@ -1,0 +1,26 @@
+body,
+html {
+    margin: 0;
+}
+
+header {
+    width: 800px;
+    margin-left: calc(50%-400px);
+}
+
+
+section {
+    display:inline-block;
+    width: 100%;
+}
+
+section>img:first-child {
+    width:  70%;
+    float: right; 
+}
+
+section div{
+    width: 25%;
+    margin-left: 71px;
+    margin-top: 233px;
+}
