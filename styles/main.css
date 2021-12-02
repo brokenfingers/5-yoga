@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: 'Comic Sans MS', 'HP Simplified Jpan' ;
+    font-family: 'Comic Sans MS', 'HP Simplified Jpan', Verdana;
     color: #2A214B;
 }
 
@@ -33,7 +33,7 @@ nav {
 
 nav a{
     text-decoration: none;
-    color: black;
+    
     font-size: 13px;
     line-height: 13px;
 }
